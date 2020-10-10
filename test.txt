@@ -1,6 +1,0 @@
-One
-two
-ready?
-Go!
-
-
