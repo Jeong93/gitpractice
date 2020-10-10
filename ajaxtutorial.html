@@ -17,7 +17,7 @@ Suggestion: <span id="txtHint">Empty</span>
     event.preventDefault();
     document.getElementById("txtHint").innerHTML=document.getElementById("cityField").value;
   });
-  const url = "http://lab2.jeonghaeng.org/gitpractice/staticCity.txt";
+  const url = "http://rest.jeonghaeng.org/staticCity.txt";
 fetch(url)
   .then(function(response) {
     return response.json();
